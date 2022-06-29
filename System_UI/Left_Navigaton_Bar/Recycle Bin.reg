@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}]
+"System.IsPinnedToNameSpaceTree"=dword:00000001

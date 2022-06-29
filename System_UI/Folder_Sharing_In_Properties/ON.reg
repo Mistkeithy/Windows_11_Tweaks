@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shellex\PropertySheetHandlers\Sharing]
+@="{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}"
