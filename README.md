@@ -20,7 +20,7 @@ Customize your Windows 11 Experience.
 
 [EN] 
 #### Information and installation guide: 
-This is a compilation of tweaks written by the FISPECKT community (russian youtuber) and Microsoft Windows 11 under the MIT license.
+This is a compilation of tweaks written by Microsoft Windows 11 and 10 community under the MIT license.
 You can contribute to this project by helping to develop it!
 
 PROCEED AT YOUR OWN RISK! The developer is not responsible for any damage to your computer.
