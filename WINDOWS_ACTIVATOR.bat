@@ -96,6 +96,7 @@ echo [a] - Windows 11/10 %Lfor_enterprise% %LN_version%
 echo [b] - Windows 11/10 %Lfor_enterprise% G
 echo [c] - Windows 11/10 %Lfor_enterprise% G %LN_version%
 echo [d] - Windows Server 2019 Standard
+echo [e] - Windows 10 %Lfor_enterprise% LTSC
 echo.
 echo [0] - %Lback%
 echo [q] - %Lwhat_my_windows%
@@ -120,6 +121,7 @@ if %num% == a (set key=DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 & goto activation)
 if %num% == b (set key=YYVX9-NTFWV-6MDM3-9PT4T-4M68B & goto activation)
 if %num% == c (set key=44RPN-FTY23-9VTTB-MP9BX-T84FV & goto activation)
 if %num% == d (set key=N69G4-B89J2-4G8F4-WWYCC-J464C & goto activation)
+if %num% == e (set key=XGVPP-NMH47-7TTHJ-W3FW7-8HV2C & goto activation)
 if %num% == q goto whatmywindows
 if %num% == w goto manual
 set typeerr=1
