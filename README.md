@@ -1,10 +1,9 @@
 # Windows 11 Tweaks
 
-Customize your Windows 11 Experience.
+It's your assistant to tweak for Windows 11/10. (NOW UPDATED)
 
-[RU]
 #### Информация на Русском Языке и помощь по установке: 
-Это сборник твиков, написанных сообществом Microsoft Windows 11 и 10 под лицензией MIT.
+Ваш помощник по твикам в Microsoft Windows 11 и 10 под лицензией MIT.
 Вы можете внести свой вклад в этот проект, помогая его развивать!
 
 	ДЕЙСТВУЙТЕ НА СВОЙ СТРАХ И РИСК! Разработчик не ответственен за причинённый вред Вашему компьютеру.
@@ -16,18 +15,17 @@ Customize your Windows 11 Experience.
 
 	(Используйте файлы с префиксом "RU_", чтобы установить русифицированную версию твика.)
 
-*Данный проект на раннем этапе, принимаю помощь от сообщества, pull-реквесты приветствуются!*
+*Данный проект разработан Mistkeith, я принимаю всю вашу помощь в развитии, и pull-реквесты приветствуются!*
 
-[EN] 
 #### Information and installation guide: 
-This is a compilation of tweaks written by Microsoft Windows 11 and 10 community under the MIT license.
+It's your assistant to tweak for Microsoft Windows 11 and 10 under the MIT license.
 You can contribute to this project by helping to develop it!
 
-PROCEED AT YOUR OWN RISK! The developer is not responsible for any damage to your computer.
+	PROCEED AT YOUR OWN RISK! The developer is not responsible for any damage to your computer.
 
 1. Download ZIP-archive of repository (Code -> Download ZIP) and extract contents to any convenient directory;
 2. Inside the **Windows_11_Tweaks** folder you will find the folders you are interested in;  
 3. Open the desired folder and then README.txt, read the text in depth;
 4. Click on desired .reg file, confirm actions and **reboot your pc** for best experience.
 
-*This project in early lifetime, i'll accept any help from community, pull-requests are welcome!*
+*This project developed by Mistkeith by free time, i'm accept your all any comminty help, and the pull-requests are welcome!*
