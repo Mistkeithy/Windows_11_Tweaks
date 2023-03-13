@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.rtf]
+@="rtffile"
+
+[HKEY_CLASSES_ROOT\.rtf\OpenWithList]
+
+[HKEY_CLASSES_ROOT\.rtf\OpenWithList\WordPad.exe]
+@=""
+
+[HKEY_CLASSES_ROOT\.txt\PersistentHandler]
+@="{5e941d80-bf96-11cd-b579-08002b30bfeb}"
+
+[HKEY_CLASSES_ROOT\.txt\ShellNew]
+"Data"="{\\rtf1}"
