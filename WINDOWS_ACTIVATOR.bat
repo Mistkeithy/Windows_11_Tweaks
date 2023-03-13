@@ -97,6 +97,7 @@ echo [b] - Windows 11/10 %Lfor_enterprise% G
 echo [c] - Windows 11/10 %Lfor_enterprise% G %LN_version%
 echo [d] - Windows Server 2019 Standard
 echo [e] - Windows 10 %Lfor_enterprise% LTSC
+echo [f] - Windows 11/10 %Lfor_home%
 echo.
 echo [0] - %Lback%
 echo [q] - %Lwhat_my_windows%
@@ -122,6 +123,7 @@ if %num% == b (set key=YYVX9-NTFWV-6MDM3-9PT4T-4M68B & goto activation)
 if %num% == c (set key=44RPN-FTY23-9VTTB-MP9BX-T84FV & goto activation)
 if %num% == d (set key=N69G4-B89J2-4G8F4-WWYCC-J464C & goto activation)
 if %num% == e (set key=XGVPP-NMH47-7TTHJ-W3FW7-8HV2C & goto activation)
+if %num% == f (set key=TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 & goto activation)
 if %num% == q goto whatmywindows
 if %num% == w goto manual
 set typeerr=1
@@ -310,12 +312,13 @@ set Lcontributors_line2=All rights reserved. MIT License.
 set Lcontributors_line3=Modification, distribution and commersial use are allowed.
 set Lcontributors_line4=Contibutors:
 set Lcontributors_line5=mistkeithy - General contributor; translations: Russian, English
-set Lcontributors_line6=WhyNotov - contributor
+set Lcontributors_line6=WhyNotov (rusha) - contributor
 set Lcontributors_line7=THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 set Lcontributors_line8="Microsoft (R) Windows (R)" is a registered trademark of Microsoft Corporation in the United States and other countries. We are not affiliated with Microsoft Corporation or their partner.
 set Lfor_workstations=For Workstations
 set Lfor_education=Education
 set Lfor_enterprise=Enterprise
+set Lfor_home=Home
 set LN_version=N (for EU without media applications)
 set Lwhat_my_windows=What my Windows Edition
 set Lwaiting_application_close=Window opened. Close it to continue.
@@ -355,12 +358,13 @@ set Lcontributors_line2=Все права защищены. Распространяется по лицензии MIT.
 set Lcontributors_line3=Разрешены модификация, распространение и коммерческое использование.
 set Lcontributors_line4=Особые благодарности:
 set Lcontributors_line5=mistkeithy - Главный разработчик; переводы: Русский, Английский
-set Lcontributors_line6=WhyNotov - Разработчик
+set Lcontributors_line6=WhyNotov (rusha) - помог проекту
 set Lcontributors_line7=ДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ "КАК ЕСТЬ", БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНО ВЫРАЖЕННЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ ГАРАНТИИ ТОВАРНОЙ ПРИГОДНОСТИ, СООТВЕТСТВИЯ ПО ЕГО КОНКРЕТНОМУ НАЗНАЧЕНИЮ И ОТСУТСТВИЯ НАРУШЕНИЙ, НО НЕ ОГРАНИЧИВАЯСЬ ИМИ. НИ В КАКОМ СЛУЧАЕ АВТОРЫ ИЛИ ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ПО КАКИМ-ЛИБО ИСКАМ, ЗА УЩЕРБ ИЛИ ПО ИНЫМ ТРЕБОВАНИЯМ, В ТОМ ЧИСЛЕ, ПРИ ДЕЙСТВИИ КОНТРАКТА, ДЕЛИКТЕ ИЛИ ИНОЙ СИТУАЦИИ, ВОЗНИКШИМ ИЗ-ЗА ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ИНЫХ ДЕЙСТВИЙ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ.
 set Lcontributors_line8="Microsoft (R) Windows (R)" - зарегистированный товарный знак Корпорации Microsoft в Соединеных Штатах Америки и других странах. Мы не являемся аффилированным лицом Корпорации Майкрософт или их партнером.
 set Lfor_workstations=для рабочих станций
 set Lfor_education=для образовательных учреждений
-set Lfor_enterprise=корпоративная
+set Lfor_enterprise=Корпоративная
+set Lfor_home=Домашняя
 set LN_version=N (для ЕС без медиа-приложений)
 set Lwhat_my_windows=Узнать мою редакцию Windows
 set Lwaiting_application_close=Открыто окно, чтобы продолжить работу, закройте его.
