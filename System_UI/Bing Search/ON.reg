@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
-"BingSearchEnabled"=dword:00000001
-"CortanaConsent"=dword:00000001 
-"AllowSearchToUseLocation"=dword:00000001
-"SearchboxTaskbarMode"=dword:00000003
