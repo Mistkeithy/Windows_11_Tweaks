@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"UserPreferencesMask"=hex:90,12,03,80
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ListviewAlphaSelect"=dword:00000000
+"TaskbarAnimations"=dword:00000000
+"TaskbarGlomLevel"=dword:00000002
+"TaskbarSizeMove"=dword:00000000
+"DisablePreviewDesktop"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
+"VisualFXSetting"=dword:00000002
+"VisualFXState"=dword:00000003
+"VisualFXSettingRestoreBits"=dword:00000001
