@@ -288,96 +288,10 @@ echo %Lpress_any_key%
 pause>nul
 goto home
 :lang_EN-us
-set Thome=Main page
-set Tversion=Windows Edition Select
-set Tactivation=Activation...
-set Tcontributors=Contributors
-set Twait=Wait...
-set Tkms=Select KMS server
-set Tkms_manual=Enter KMS server manually
-set Tmanual=Enter key manually and activate
-set Tmy_version=My Windows Edition
-set Lwindows_activation=Windows Activaton
-set Lselect_windows_edition=Select Windows edition
-set Lenter_key_manually=Enter key manually and activate
-set Lselect_kms_server=Select the KMS server
-set Lcontributors=Contributors
-set Lin_progress=Activaton in progress...
-set Lprogress_kms_server=Setting KMS server...
-set Lprogress_installation_key=Installation product key...
-set Lprogress_try_to_activate=One moment...
-set Lprogress_pls_check=Open the dialog window and check activation status. Try again if error occured.
-set Lcontributors_line1=Windows Tweaks - Windows Activation Tool. Copyright (c) 2022 mistkeithy. 
-set Lcontributors_line2=All rights reserved. MIT License.
-set Lcontributors_line3=Modification, distribution and commersial use are allowed.
-set Lcontributors_line4=Contibutors:
-set Lcontributors_line5=mistkeithy - General contributor; translations: Russian, English
-set Lcontributors_line6=WhyNotov (rusha) - contributor
-set Lcontributors_line7=THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-set Lcontributors_line8="Microsoft (R) Windows (R)" is a registered trademark of Microsoft Corporation in the United States and other countries. We are not affiliated with Microsoft Corporation or their partner.
-set Lfor_workstations=For Workstations
-set Lfor_education=Education
-set Lfor_enterprise=Enterprise
-set Lfor_home=Home
-set LN_version=N (for EU without media applications)
-set Lwhat_my_windows=What my Windows Edition
-set Lwaiting_application_close=Window opened. Close it to continue.
-set Lback=Return
-set Lexit=Exit
-set Lselect=Select: 
-set Lserver=Server: 
-set not_defined=not defined
-set Lkey=Key: 
-set Lkms_installed=] KMS server installed.
-set Ltype_error=] Unknown command. Make sure for correct enter.
-set Ltype_here=TYPE HERE or select (RClick paste): 
-set Lpress_any_key=Press any key to continue...
+call Translations\en_us.bat
 goto envdefaults
 :lang_RU-ru
-set Thome=Главная
-set Tversion=Выбор редакции Windows
-set Tactivation=Активация...
-set Tcontributors=Благодарности авторам
-set Twait=Ожидание...
-set Tkms=Выбрать KMS-сервер
-set Tkms_manual=Ввести сервер KMS вручную
-set Tmanual=Ввести ключ вручную и начать активацию
-set Tmy_version=Моя редакция Windows
-set Lwindows_activation=Активация Windows
-set Lselect_windows_edition=Выбрать редакцию Windows
-set Lenter_key_manually=Ввести ключ вручную и начать активацию
-set Lselect_kms_server=Выбрать KMS-сервер
-set Lcontributors=Благодарности
-set Lin_progress=Идет активация...
-set Lprogress_kms_server=Установка KMS-сервера...
-set Lprogress_installation_key=Установка ключа продукта...
-set Lprogress_try_to_activate=Активация...
-set Lprogress_pls_check=Проверьте статус активации в всплывающем окне. Попробуйте снова, если произошла ошибка.
-set Lcontributors_line1=Windows Tweaks - Windows Activation Tool. Copyright (c) 2022 mistkeithy. 
-set Lcontributors_line2=Все права защищены. Распространяется по лицензии MIT.
-set Lcontributors_line3=Разрешены модификация, распространение и коммерческое использование.
-set Lcontributors_line4=Особые благодарности:
-set Lcontributors_line5=mistkeithy - Главный разработчик; переводы: Русский, Английский
-set Lcontributors_line6=WhyNotov (rusha) - помог проекту
-set Lcontributors_line7=ДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ "КАК ЕСТЬ", БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНО ВЫРАЖЕННЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ ГАРАНТИИ ТОВАРНОЙ ПРИГОДНОСТИ, СООТВЕТСТВИЯ ПО ЕГО КОНКРЕТНОМУ НАЗНАЧЕНИЮ И ОТСУТСТВИЯ НАРУШЕНИЙ, НО НЕ ОГРАНИЧИВАЯСЬ ИМИ. НИ В КАКОМ СЛУЧАЕ АВТОРЫ ИЛИ ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ПО КАКИМ-ЛИБО ИСКАМ, ЗА УЩЕРБ ИЛИ ПО ИНЫМ ТРЕБОВАНИЯМ, В ТОМ ЧИСЛЕ, ПРИ ДЕЙСТВИИ КОНТРАКТА, ДЕЛИКТЕ ИЛИ ИНОЙ СИТУАЦИИ, ВОЗНИКШИМ ИЗ-ЗА ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ИНЫХ ДЕЙСТВИЙ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ.
-set Lcontributors_line8="Microsoft (R) Windows (R)" - зарегистированный товарный знак Корпорации Microsoft в Соединеных Штатах Америки и других странах. Мы не являемся аффилированным лицом Корпорации Майкрософт или их партнером.
-set Lfor_workstations=для рабочих станций
-set Lfor_education=для образовательных учреждений
-set Lfor_enterprise=Корпоративная
-set Lfor_home=Домашняя
-set LN_version=N (для ЕС без медиа-приложений)
-set Lwhat_my_windows=Узнать мою редакцию Windows
-set Lwaiting_application_close=Открыто окно, чтобы продолжить работу, закройте его.
-set Lback=Вернуться
-set Lexit=Выйти
-set Lselect=Выбор: 
-set Lserver=Сервер: 
-set not_defined=не задан
-set Lkey=Ключ: 
-set Lkms_installed=] KMS-сервер установлен.
-set Ltype_error=] Неизвестная команда. Убедитесь, что вы не допустили ошибок при вводе.
-set Ltype_here=ВВОДИТЕ ЗДЕСЬ или выберите пункт (ПКМ вставить): 
-set Lpress_any_key=Нажмите любую клавишу чтобы продолжить...
+call Translations\ru_ru.bat
 goto envdefaults
 :envdefaults
 set key=%not_defined%
