@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations]
+
+[-HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap]
+
+[-HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF]
+
+[-HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities]
+"ApplicationDescription"="@%ProgramFiles%\\Windows Photo Viewer\\photoviewer.dll,-3069"
+"ApplicationName"="@%ProgramFiles%\\Windows Photo Viewer\\photoviewer.dll,-3009"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations]
+".tif"="PhotoViewer.FileAssoc.Tiff"
+".tiff"="PhotoViewer.FileAssoc.Tiff"

@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"NtfsDisableLastAccessUpdate"=dword:00000001
+"NtfsDisable8dot3NameCreation"=dword:00000001

@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnableBootTrace"=dword:00000000
+"EnablePrefetcher"=dword:00000003
+"EnableSuperfetch"=dword:00000001
